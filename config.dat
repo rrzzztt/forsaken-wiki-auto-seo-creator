@@ -1,0 +1,9 @@
+name=Placeholder
+keywords=If you see this message it means you didnt put keywords in the config.dat file. Please put some keywords inside the config file.
+skintag=PLHL
+
+
+Hello the program doesnt care after line 3 so im just gonna write my comments here.
+name is characters name
+keywords is the keywords. Seperate them with ',' and CHARACTERNAME = the character name entered in 'name=' and SKINNAME is the skin's name when you input it.
+skintag is the shortened version of the characters name. the thing that comes after 'Skin{SKINTAG} BLABLABAL InvIcon.png'

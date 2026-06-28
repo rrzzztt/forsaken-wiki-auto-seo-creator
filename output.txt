@@ -1,0 +1,6 @@
+{{#seo:
+|title =  (Placeholder) - Official Forsaken Wiki
+|keywords=if you see this message it means you didnt put keywords in the config.dat file. please put some keywords inside the config file.
+|image = SkinPLHL  InvIcon.png
+|description= is a skin for Placeholder. <!--Please expand this part-->
+}}
