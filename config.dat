@@ -1,9 +1,8 @@
-name=Placeholder
-keywords=If you see this message it means you didnt put keywords in the config.dat file. Please put some keywords inside the config file.
-skintag=PLHL
-
-
-Hello the program doesnt care after line 3 so im just gonna write my comments here.
-name is characters name
-keywords is the keywords. Seperate them with ',' and CHARACTERNAME = the character name entered in 'name=' and SKINNAME is the skin's name when you input it.
-skintag is the shortened version of the characters name. the thing that comes after 'Skin{SKINTAG} BLABLABAL InvIcon.png'
+# This is the name of the character. Can be used as 'CHARACTERNAME' in the 'keywords' variable.
+name=Shedletsky
+# This the keywords that are going to be used. Seperate keywords with ',' and use 'SKINNAME' for writing the skin's name and 'CHARACTERNAME' in order to write the character's name.
+keywords=forsaken,wiki,CHARACTERNAME,SKINNAME
+# This is the skintag that appears right after 'Skin'. Eg. 'SkinShed', in this case 'Shed' is the skintag.
+skintag=Shed
+# Do not change this value. This variable is the variable that the program uses to check if the config file is up to date.
+version=3
