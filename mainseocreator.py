@@ -33,7 +33,7 @@ if not configversion == clientversion and checked == False:
     print("!!!THE CONFIG FILE THAT IS CURRENTLY BEING USED IS NOT UP TO DATE WITH THE NEWEST PROGRAM. PLEASE DELETE THE FILE AND TYPE IN A PLACEHOLDER SKIN TO USE THE NEWEST CONFIG FILE.!!!\n!!!IF NOT DONE CAN CAUSE CRASHES/ERRORS!!!")
 with open(f"{filelocation}output.txt","w") as f:
     f.write("")
-print("Auto-(Placeholder) Seo Creator v2.01 by Rzt")
+print("Auto-(Placeholder) Seo Creator v2.02 by Rzt")
 while True:
     name = str(input("Skin Name: ")).replace("İ","I").replace("Ö","O").replace("Ç","C").replace("Ş","S").replace("ı","i").replace("ö","o").replace("ş","s").replace("ü","u").replace("Ü","U")
     caps = str(input("Skin file has case sensitive name? (true/FALSE): ")).casefold()
@@ -82,6 +82,8 @@ while True:
         nameliststr
     elif caps == "false":
         nameliststr = nameliststr.casefold()
+    if filetype == "":
+        filetype = "png"
 # Ok so these are the milestone things. As the message above says, THESE ARE HARDCODED TOO PLEASE DONT USE OTHER THINGS IN THE INPUT!
     if name == "Milestone IV":
         with open(f"{filelocation}output.txt","w") as f:
